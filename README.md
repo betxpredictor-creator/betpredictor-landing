@@ -1,20 +1,72 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# BetPredictor — Landing Page
 
-# Run and deploy your AI Studio app
+Site vitrine officiel pour l'application **BetPredictor**, votre compagnon intelligent pour les pronostics sportifs et les stratégies casino.
 
-This contains everything you need to run your app locally.
+## Fonctionnalités
 
-View your app in AI Studio: https://ai.studio/apps/580fe883-af47-4148-853c-4f96c5abb460
+- **Pronostics réels** — Analyses approfondies des matchs du jour
+- **Matchs virtuels** — Outils dédiés aux compétitions virtuelles
+- **Stratégies casino** — Modules d'analyse pour les jeux populaires (Aviator, JetX, Mine, etc.)
+- **Design responsive** — Interface optimisée mobile et desktop
+- **Mode sombre** — Expérience visuelle premium
 
-## Run Locally
+## Technologies
 
-**Prerequisites:**  Node.js
+- **React 19** + **TypeScript**
+- **Vite** — Build rapide et dev server
+- **Tailwind CSS v4** — Styling
+- **Motion** — Animations fluides
+- **Lucide React** — Icônes
 
+## Démarrage local
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Prérequis
+
+- Node.js 18+
+- npm
+
+### Installation
+
+```bash
+# Installer les dépendances
+npm install
+
+# Lancer le serveur de développement
+npm run dev
+
+# Construire pour la production
+npm run build
+
+# Prévisualiser la version production
+npm run preview
+```
+
+Le site sera disponible sur `http://localhost:3000`.
+
+## Déploiement
+
+### Vercel (recommandé)
+
+1. Importe le repo sur [vercel.com](https://vercel.com)
+2. Le déploiement est automatique
+
+### Netlify
+
+1. Connecte ton repo GitHub sur [netlify.com](https://netlify.com)
+2. Build command : `npm run build`
+3. Publish directory : `dist`
+
+### GitHub Pages
+
+1. Installe `gh-pages` : `npm i -D gh-pages`
+2. Configure le build et le déploiement
+3. Exécute `npm run deploy`
+
+## Contact
+
+- **Facebook** : [BetPredictor](https://www.facebook.com/betpredictor)
+- **Email** : betxpredictor@gmail.com
+
+## Licence
+
+© 2026 BetPredictor. Tous droits réservés.
