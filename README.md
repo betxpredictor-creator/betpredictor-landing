@@ -2,6 +2,10 @@
 
 Site vitrine officiel pour l'application **BetPredictor**, votre compagnon intelligent pour les pronostics sportifs et les stratégies casino.
 
+# Télécharger ici
+
+https://betpredictor.netlify.app/
+
 ## Fonctionnalités
 
 - **Pronostics réels** — Analyses approfondies des matchs du jour
