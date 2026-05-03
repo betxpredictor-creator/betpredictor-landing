@@ -101,7 +101,7 @@ export default function App() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const downloadLink = "https://release-assets.githubusercontent.com/github-production-release-asset/1227838951/d459f0bb-f5f9-4bf0-9e2a-5f0846eda055?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-05-03T09%3A48%3A31Z&rscd=attachment%3B+filename%3DBetPredictorV1.0.0.apk&rsct=application%2Fvnd.android.package-archive&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-05-03T08%3A47%3A39Z&ske=2026-05-03T09%3A48%3A31Z&sks=b&skv=2018-11-09&sig=4BVPxMO5%2BNOudkZq3zys09NqnAy996op8ChJ2AWHgsQ%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NzgwMDM0MCwibmJmIjoxNzc3Nzk4NTQwLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.vb2uor2ymSiiliURQBuW6Cg1tx-xrf6mbx7l5zsqxkc&response-content-disposition=attachment%3B%20filename%3DBetPredictorV1.0.0.apk&response-content-type=application%2Fvnd.android.package-archive"; // Replace with "Lien de téléchargement APK ici"
+  const downloadLink = "https://github.com/betxpredictor-creator/betpredictor-landing/releases/download/1.0.0/BetPredictorV1.0.0.apk"; // Replace with "Lien de téléchargement APK ici"
 
   return (
     <div className="min-h-screen bg-[#050505] text-zinc-300 font-sans selection:bg-amber-500/30">
