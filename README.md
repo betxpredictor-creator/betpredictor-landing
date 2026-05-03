@@ -40,28 +40,6 @@ npm run build
 # Prévisualiser la version production
 npm run preview
 ```
-
-Le site sera disponible sur `http://localhost:3000`.
-
-## Déploiement
-
-### Vercel (recommandé)
-
-1. Importe le repo sur [vercel.com](https://vercel.com)
-2. Le déploiement est automatique
-
-### Netlify
-
-1. Connecte ton repo GitHub sur [netlify.com](https://netlify.com)
-2. Build command : `npm run build`
-3. Publish directory : `dist`
-
-### GitHub Pages
-
-1. Installe `gh-pages` : `npm i -D gh-pages`
-2. Configure le build et le déploiement
-3. Exécute `npm run deploy`
-
 ## Contact
 
 - **Facebook** : [BetPredictor](https://www.facebook.com/betpredictor)
