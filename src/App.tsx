@@ -101,7 +101,7 @@ export default function App() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const downloadLink = "#"; // Replace with "Lien de téléchargement APK ici"
+  const downloadLink = "https://github.com/betxpredictor-creator/betpredictor-landing/releases/download/1.0.0/BetPredictorV1.0.0.apk"; // Replace with "Lien de téléchargement APK ici"
 
   return (
     <div className="min-h-screen bg-[#050505] text-zinc-300 font-sans selection:bg-amber-500/30">
